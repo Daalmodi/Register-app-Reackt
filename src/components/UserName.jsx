@@ -1,9 +1,11 @@
 
-
 const UserName = () => {
+
   return (
-    <div>UserName</div>
-  )
+    <>
+      <input type="text" placeholder="Create your username" /> <button>Row</button>
+    </>
+  );
 }
 
 export default UserName

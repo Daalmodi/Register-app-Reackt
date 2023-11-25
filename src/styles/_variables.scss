@@ -1,2 +1,33 @@
 $font-family:'Kdam Thmor Pro', sans-serif;
 $white:white;
+
+// AZULES
+
+/* SCSS HEX */
+$duke-blue: #000094ff;
+$byzantine-blue: #274edbff;
+$brandeis-blue: #1073e5ff;
+$steel-blue: #287dcaff;
+
+/* SCSS HSL */
+$duke-blue: hsla(240, 100%, 29%, 1);
+$byzantine-blue: hsla(227, 71%, 51%, 1);
+$brandeis-blue: hsla(212, 87%, 48%, 1);
+$steel-blue: hsla(209, 67%, 47%, 1);
+
+/* SCSS RGB */
+$duke-blue: rgba(0, 0, 148, 1);
+$byzantine-blue: rgba(39, 78, 219, 1);
+$brandeis-blue: rgba(16, 115, 229, 1);
+$steel-blue: rgba(40, 125, 202, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #000094ff, #274edbff, #1073e5ff, #287dcaff);
+$gradient-right: linear-gradient(90deg, #000094ff, #274edbff, #1073e5ff, #287dcaff);
+$gradient-bottom: linear-gradient(180deg, #000094ff, #274edbff, #1073e5ff, #287dcaff);
+$gradient-left: linear-gradient(270deg, #000094ff, #274edbff, #1073e5ff, #287dcaff);
+$gradient-top-right: linear-gradient(45deg, #000094ff, #274edbff, #1073e5ff, #287dcaff);
+$gradient-bottom-right: linear-gradient(135deg, #000094ff, #274edbff, #1073e5ff, #287dcaff);
+$gradient-top-left: linear-gradient(225deg, #000094ff, #274edbff, #1073e5ff, #287dcaff);
+$gradient-bottom-left: linear-gradient(315deg, #000094ff, #274edbff, #1073e5ff, #287dcaff);
+$gradient-radial: radial-gradient(#000094ff, #274edbff, #1073e5ff, #287dcaff);

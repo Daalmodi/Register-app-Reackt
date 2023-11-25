@@ -1,0 +1,11 @@
+
+@mixin label(){
+    label{
+        padding:12px 15px ;
+        cursor:pointer;
+        font-size: 18px;
+        position: relative;
+        margin: 1rem 1.5rem;
+        text-align: center;   
+    }
+}
