@@ -2,8 +2,10 @@
 
 const SubmitBlock = () => {
   return (
-    <div>
-      
+    <div className="card">
+
+      <button type="submit">Enviar</button>
+
     </div>
   )
 }
